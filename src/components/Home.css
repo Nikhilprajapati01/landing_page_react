@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: "poppins",sans-serif;
+  position: relative;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.home_container{
+    display: flex;
+    max-width: 1125px;
+   margin: 100px 150px;
+}
+.content{
+    height:613px ;
+    width: 595px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content h3{
+    font-family: Poppins;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 102px;
+    text-align: left;
+}
+.content_para{
+    width: 404px;
+    height: 91px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.content_para p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.shoeimg{
+    width: 530px;
+    height: 487px;
+    margin: auto;
+    
+}
+.btns{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.shopbtn{
+    padding: 6px 18px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.catogorybtn{
+    padding: 6px 18px;;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+    
+}
+.icons{
+    background: url("image.png");
+    background-size: contain;
+}
